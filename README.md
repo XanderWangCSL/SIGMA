@@ -1,17 +1,16 @@
 # SIGMA
 Real-Time Peak Flow Prediction Based on Signal Matching
 
-############################################################################
-# Description: 
-#      This package contains the R codes and data used for the manuscript 
-#      entitled "Real-Time Peak Flow Prediction Based on Signal Matching"
-# Developed by:
-#      Dr. Xiuquan (Xander) Wang, P.Eng. 
-#      Canadian Centre for Climate Change and Adaptation
-#      University of Prince Edward Island
-#      Website: http://climatesmartlab.ca
-#      Email: xiuquan.wang@gmail.com or xxwang@upei.ca
-############################################################################
+This package contains the R codes and data used for the EMS paper entitled "Real-Time Peak Flow Prediction Based on Signal Matching".
+
+Developed by:
+
+      Dr. Xiuquan (Xander) Wang, P.Eng. 
+      Canadian Centre for Climate Change and Adaptation
+      University of Prince Edward Island
+      Website: http://climatesmartlab.ca
+      Email: xiuquan.wang@gmail.com or xxwang@upei.ca
+
 
 1. This folder contains the following items:
 
@@ -32,13 +31,13 @@ Real-Time Peak Flow Prediction Based on Signal Matching
    - ReadMe.txt	
      ==> the file you are reading now.
 
-2. To test the R codes, please simply unzip the downloaded zip file. 
-   Open R and change the work directory to this unzipped folder
-   Then in R, run the code by typing: source("SIGMA_v2023.r")
-   You can open the SIGMA.r to change the sub-hourly precipitation pattern generation method (i.e., uniform or triangular)
-   You should be able to see the results (i.e., those two png files and some outputs files under the events_data folder)
+2. To test the R codes, please simply unzip the downloaded zip file. Open R and change the work directory to this unzipped folder
+   Then in R, run the code by typing:
+   
+   - source("SIGMA.r")
 
-3. That's all! Enjoy!
+   You can open the SIGMA.r to change the sub-hourly precipitation pattern generation method (i.e., uniform or triangular). You should be able to see the results (i.e., those two png files and some outputs files under the events_data folder).
 
-All the best,
-Xander
+4. Enjoy!
+
+
