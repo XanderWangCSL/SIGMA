@@ -28,7 +28,7 @@ Developed by:
      ==> this is the figure showing the comparison between model simulation (based on uniform
          sub-hourly precipitation pattern and observations)
 
-   - ReadMe.txt	
+   - README.md	
      ==> the file you are reading now.
 
 2. To test the R codes, please simply unzip the downloaded zip file. Open R and change the work directory to this unzipped folder
