@@ -1,11 +1,11 @@
 ##########################################################################
 # Description: 	This is a complete version of the SIGMA model
-#       		with the application to the Jinghe River Watershed in China
-# Author: 		Dr. Xander Wang, P.Eng., CCCCA at UPEI
-# Date:   		February 6, 2023
+#       	with the application to the Jinghe River Watershed in China
+# Author: 	Dr. Xander Wang, P.Eng., CCCCA at UPEI
+# Date:   	February 6, 2023
 # Location: 	Charlottetown, PE, Canada
-# Website:		http://climatesmartlab.ca
-# Contact:		xiuquan.wang@gmail.com or xxwang@upei.ca
+# Website:	http://climatesmartlab.ca
+# Contact:	xiuquan.wang@gmail.com or xxwang@upei.ca
 ##########################################################################
 
 #: create a new environment to host all parameters
@@ -24,7 +24,7 @@ FM.env <- new.env()
 # Step 2: Prepare the model settings
 # ----------------------------------
 # 2.1: 4 zones including Huanxian + Xifengzhen + Pingliang + Changwu
-# 						c(   1,			2,			3,			4)
+# Their sequences in the vector: c(1, 2, 3, 4)
 
 # Total number of zones = > 4
 p_nZones = 4
